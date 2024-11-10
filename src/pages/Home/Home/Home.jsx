@@ -1,10 +1,13 @@
+import About from "../About/About"
 import Slider from "../Banner/Slider"
 
 function Home() {
   return (
     <div>
           {/* Banner */}
-          <Slider/>
+          <Slider />
+          {/* About */}
+          <About/>
     </div>
   )
 }
