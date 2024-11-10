@@ -1,5 +1,6 @@
 import About from "../About/About"
 import Slider from "../Banner/Slider"
+import Service from "../Service/Service"
 
 function Home() {
   return (
@@ -7,7 +8,9 @@ function Home() {
           {/* Banner */}
           <Slider />
           {/* About */}
-          <About/>
+          <About />
+          {/* Service */}
+          <Service/>
     </div>
   )
 }
