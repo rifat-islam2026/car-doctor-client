@@ -1,16 +1,31 @@
+import { useContext } from "react";
+import toast from "react-hot-toast";
 import { FaFacebook, FaGoogle, FaLinkedin } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import image from "../../assets/images/login/login.svg";
+import { AuthContext } from "../../providers/Provider/AuthProvider";
 import Navbar from "../Shared/Navbar/Navbar";
 
 function Register() {
+  const { createUser } = useContext(AuthContext);
+  const navigate = useNavigate();
         const handelFromSubmit = (event) => {
           event.preventDefault();
           const form = event.target;
           const name = form.name.value;
           const email = form.email.value;
           const password = form.password.value;
-          console.log(name,email, password);
+          // console.log(name,email, password);
+          createUser(email,password)
+            .then(result => {
+              console.log(result.user)
+              toast.success('Register Successful')
+              navigate('/login')
+            })
+            .catch(err => {
+              console.log(err.message)
+              toast.error(err?.message)
+          })
         };
   return (
     <div>

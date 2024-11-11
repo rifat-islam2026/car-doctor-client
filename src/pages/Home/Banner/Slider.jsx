@@ -12,14 +12,14 @@ function Slider() {
         <div className="absolute flex items-center ps-10 h-full left-0 right-5 w-1/2 top-0 bg-gradient-to-r from-[#151515] to-[rgba(21,21,21,0)]">
           <div className="space-y-5 text-white">
             <Fade direction="up">
-              <h1 className="text-5xl font-bold">
+              <h1 className="lg:text-5xl text-3xl font-bold">
                 Affordable Price For Car Servicing
               </h1>
               <p>
                 There are many variations of passages of available, but the
                 majority have suffered alteration in some form.
               </p>
-           </Fade>
+            </Fade>
             <Fade direction="down">
               <div className="flex gap-5">
                 <button className="btn btn-warning">Discover More</button>
@@ -31,10 +31,16 @@ function Slider() {
           </div>
         </div>
         <div className="absolute left-5 right-5 bottom-0 flex justify-end gap-5 -translate-y-1/2 transform">
-          <a href="#slide4" className="btn btn-circle hover:bg-orange-500">
+          <a
+            href="#slide4"
+            className="btn btn-circle text-lg text-white bg-opacity-45 border-none hover:bg-orange-500 duration-200"
+          >
             ❮
           </a>
-          <a href="#slide2" className="btn btn-circle hover:bg-orange-500">
+          <a
+            href="#slide2"
+            className="btn btn-circle text-lg text-white bg-opacity-45 border-none hover:bg-orange-500 duration-200"
+          >
             ❯
           </a>
         </div>
@@ -44,11 +50,13 @@ function Slider() {
         <div className="absolute flex items-center ps-10 h-full left-0 right-5 w-1/2 top-0 bg-gradient-to-r from-[#151515] to-[rgba(21,21,21,0)]">
           <div className="space-y-5 text-white">
             <Fade direction="up">
-              <h1 className="text-5xl font-bold">
+              <h1 className="lg:text-5xl text-3xl font-bold">
                 Expert Repairs for Every Make & Model
               </h1>
               <p>
-                Our certified technicians specialize in comprehensive repairs for all car brands, using the latest tools and technology for reliable results.
+                Our certified technicians specialize in comprehensive repairs
+                for all car brands, using the latest tools and technology for
+                reliable results.
               </p>
             </Fade>
             <Fade direction="down">
@@ -62,10 +70,16 @@ function Slider() {
           </div>
         </div>
         <div className="absolute left-5 right-5 bottom-0 flex justify-end gap-5 -translate-y-1/2 transform">
-          <a href="#slide1" className="btn btn-circle hover:bg-orange-500">
+          <a
+            href="#slide1"
+            className="btn btn-circle text-lg text-white bg-opacity-45 border-none hover:bg-orange-500 duration-200"
+          >
             ❮
           </a>
-          <a href="#slide3" className="btn btn-circle hover:bg-orange-500">
+          <a
+            href="#slide3"
+            className="btn btn-circle text-lg text-white bg-opacity-45 border-none hover:bg-orange-500 duration-200"
+          >
             ❯
           </a>
         </div>
@@ -75,11 +89,12 @@ function Slider() {
         <div className="absolute flex items-center ps-10 h-full left-0 right-5 w-1/2 top-0 bg-gradient-to-r from-[#151515] to-[rgba(21,21,21,0)]">
           <div className="space-y-5 text-white">
             <Fade direction="up">
-              <h1 className="text-5xl font-bold">
+              <h1 className="lg:text-5xl text-3xl font-bold">
                 Detailed Inspections for Peace of Mind
               </h1>
               <p>
-                Our thorough inspections cover every component of your vehicle to catch small issues before they become costly problems.
+                Our thorough inspections cover every component of your vehicle
+                to catch small issues before they become costly problems.
               </p>
             </Fade>
             <Fade direction="down">
@@ -89,14 +104,20 @@ function Slider() {
                   Latest Project
                 </button>
               </div>
-            </Fade>          
+            </Fade>
           </div>
         </div>
         <div className="absolute left-5 right-5 bottom-0 flex justify-end gap-5 -translate-y-1/2 transform">
-          <a href="#slide2" className="btn btn-circle hover:bg-orange-500">
+          <a
+            href="#slide2"
+            className="btn btn-circle text-lg text-white bg-opacity-45 border-none hover:bg-orange-500 duration-200"
+          >
             ❮
           </a>
-          <a href="#slide4" className="btn btn-circle hover:bg-orange-500">
+          <a
+            href="#slide4"
+            className="btn btn-circle text-lg text-white bg-opacity-45 border-none hover:bg-orange-500 duration-200"
+          >
             ❯
           </a>
         </div>
@@ -106,13 +127,15 @@ function Slider() {
         <div className="absolute flex items-center ps-10 h-full left-0 right-5 w-1/2 top-0 bg-gradient-to-r from-[#151515] to-[rgba(21,21,21,0)]">
           <div className="space-y-5 text-white">
             <Fade direction="up">
-              <h1 className="text-5xl font-bold">
+              <h1 className="lg:text-5xl text-3xl font-bold">
                 Eco-Friendly Car Wash Services
               </h1>
               <p>
-                Keep your car spotless and the environment clean with our eco-friendly wash options. Gentle on your car, green for the planet.
+                Keep your car spotless and the environment clean with our
+                eco-friendly wash options. Gentle on your car, green for the
+                planet.
               </p>
-           </Fade>
+            </Fade>
             <Fade direction="down">
               <div className="flex gap-5">
                 <button className="btn btn-warning">Discover More</button>
@@ -124,10 +147,16 @@ function Slider() {
           </div>
         </div>
         <div className="absolute left-5 right-5 bottom-0 flex justify-end gap-5 -translate-y-1/2 transform">
-          <a href="#slide3" className="btn btn-circle hover:bg-orange-500">
+          <a
+            href="#slide3"
+            className="btn btn-circle text-lg text-white bg-opacity-45 border-none hover:bg-orange-500 duration-200"
+          >
             ❮
           </a>
-          <a href="#slide1" className="btn btn-circle hover:bg-orange-500">
+          <a
+            href="#slide1"
+            className="btn btn-circle text-lg text-white bg-opacity-45 border-none hover:bg-orange-500 duration-200"
+          >
             ❯
           </a>
         </div>

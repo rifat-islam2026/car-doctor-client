@@ -1,7 +1,8 @@
 import { FiArrowRight } from "react-icons/fi";
+import { Link } from "react-router-dom";
 
 function ServiceCard({ service }) {
-    const { title, img, price } = service;
+    const { title, img, price,_id } = service;
   return (
     <div>
       <div className="card bg-base-100 shadow border rounded-md">
@@ -16,6 +17,9 @@ function ServiceCard({ service }) {
               <FiArrowRight />
             </span>
           </div>
+          <Link to={`/checkOut/${_id}`}> 
+          <button className="py-2 w-full mt-2 bg-orange-500 hover:bg-orange-600 text-white font-bold ">Book Now</button>
+          </Link>
         </div>
       </div>
     </div>
