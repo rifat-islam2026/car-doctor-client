@@ -95,11 +95,11 @@ function Navbar() {
             tabIndex={0}
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
           >
-            <li>
-              <a>Profile</a>
+            <li className="py-2">
+              <Link to='/bookings'>My Booking</Link>
             </li>
-            <li>
-              <a className="flex justify-center" onClick={handelSignOut}>
+            <li> 
+              <a className="flex justify-center bg-warning" onClick={handelSignOut}>
                 Sign Out
               </a>
             </li>
